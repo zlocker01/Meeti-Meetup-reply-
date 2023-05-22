@@ -1,0 +1,20 @@
+{
+  "name": "03-meeti",
+  "version": "1.0.0",
+  "description": "practica con sass y bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "compilar:sass": "sass --watch src/scss:build/css",
+    "build:sass": "purgecss --css build/css/style.css --content index.html --output build/css/meeti.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zlocker01"
+  },
+  "author": "Diego Beristain",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.62.1"
+  }
+}

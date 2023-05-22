@@ -1,0 +1,15 @@
+@use '../custom' as *; /* con el as * evitamos poner el nombre del archivo donde esta la variable */
+
+.header {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    @include media-breakpoint-up(md) {
+        padding-top: 10rem;
+        padding-top: 10rem;
+    }
+}
+
+.logo {
+    width: 10rem;
+}
+
